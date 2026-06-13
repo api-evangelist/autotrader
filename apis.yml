@@ -1,0 +1,208 @@
+aid: autotrader
+name: Autotrader
+description: Autotrader is the UK's largest digital automotive marketplace, providing REST APIs through the Autotrader Connect platform for vehicle listings, dealer stock management, VIN and VRM lookups, vehicle valuations, retail metrics, taxonomy, images, deals, and consumer-facing search. The platform enables technology partners and retailers to integrate automotive data and marketplace functionality into their systems in real time.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/autotrader/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - Automotive
+  - Vehicles
+  - Marketplace
+  - Dealer
+  - Listings
+  - Valuations
+  - VIN
+  - VRM
+  - Inventory
+  - Car Buying
+  - Car Selling
+apis:
+  - name: Autotrader Vehicles API
+    description: Provides VRM and VIN lookups, MOT history, vehicle features, valuations, and retail metrics for individual vehicles. Enables dealers and partners to retrieve comprehensive vehicle data for appraisals and stock creation.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Vehicles
+      - VIN
+      - VRM
+      - MOT History
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Taxonomy API
+    description: Provides structured data for vehicle makes, models, generations, and derivatives. Used to build consistent vehicle classification and search facets across automotive systems.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Taxonomy
+      - Makes
+      - Models
+      - Classification
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Stock API
+    description: Enables retailers to manage their forecourt inventory programmatically. Supports creating, updating, and deleting vehicle adverts in the Autotrader marketplace from third-party dealer management systems.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Stock
+      - Inventory
+      - Listings
+      - Dealer
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Images API
+    description: CDN-backed image storage and management API for vehicle adverts. Allows partners to upload, retrieve, and manage vehicle photography via Autotrader's content delivery network.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Images
+      - CDN
+      - Media
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Search API
+    description: Provides filtered and sorted access to consumer vehicle adverts on the Autotrader marketplace. Enables partners to build consumer-facing search and browsing applications with Autotrader inventory.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Search
+      - Listings
+      - Consumer
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Valuations API
+    description: Delivers current UK market vehicle valuation data based on real-time Autotrader marketplace signals. Provides dealers and partners with trusted pricing intelligence for retail decisions.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Valuations
+      - Pricing
+      - Market Data
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Vehicle Metrics API
+    description: Provides supply, demand, and pricing intelligence metrics to help retailers understand market positioning. Includes retail rating, average days to sell, and competitor analysis data.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Metrics
+      - Analytics
+      - Retail
+      - Market Intelligence
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Future Valuations API
+    description: Returns predicted vehicle valuations for a specified future date, enabling dealers to forecast vehicle depreciation and make forward-looking pricing and acquisition decisions.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Valuations
+      - Forecasting
+      - Depreciation
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Historic Valuations API
+    description: Provides access to historical vehicle valuation data, enabling trend analysis and retrospective pricing research across the UK automotive market.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Valuations
+      - Historical
+      - Pricing
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Deals API
+    description: Manages the full deal lifecycle between buyers and dealers on the Autotrader platform. Supports deal creation, status updates, and notifications including DEAL_CREATE and DEAL_UPDATE events.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Deals
+      - Transactions
+      - eCommerce
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Part Exchange API
+    description: Manages part-exchange vehicle transactions allowing dealers to appraise and accept trade-in vehicles as part of the deal flow integrated with Autotrader's Deal Builder product.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Part Exchange
+      - Trade-In
+      - Deals
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Co-Driver API
+    description: AI-powered API that generates vehicle advert descriptions and optimizes image ordering for vehicle listings. Enables dealers to produce high-quality, consistent content at scale through integration with their existing systems.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - AI
+      - Content Generation
+      - Images
+      - Descriptions
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+  - name: Autotrader Finance API
+    description: Beta API supporting finance application and quote management for vehicle purchases. Enables integration of motor finance products into the Autotrader deal flow and partner platforms.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.autotrader.co.uk/api
+    baseURL: https://api.autotrader.co.uk
+    tags:
+      - Finance
+      - Payments
+      - Motor Finance
+    properties:
+      - type: Documentation
+        url: https://developers.autotrader.co.uk/api
+common:
+  - type: Website
+    url: https://www.autotrader.co.uk
+  - type: PartnerSite
+    url: https://www.autotrader.co.uk/partners/retailer/platform/autotrader-connect
+  - type: Documentation
+    url: https://developers.autotrader.co.uk/api
+  - type: Blog
+    url: https://engineering.autotrader.co.uk
+  - type: StatusPage
+    url: https://status.autotrader.co.uk
+  - type: LinkedIn
+    url: https://uk.linkedin.com/company/auto-trader-uk
+  - type: X
+    url: https://twitter.com/AutoTrader_UK
+  - type: Support
+    url: https://help.autotrader.co.uk/hc/en-gb
+  - type: Plans
+    url: plans/autotrader-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/autotrader-rate-limits.yml
+  - type: FinOps
+    url: finops/autotrader-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,24 @@
+name: Autotrader Plans and Pricing
+description: Autotrader Connect API access is available to technology partners and retailers through a partner program. API access is negotiated directly with Autotrader and is provided on top of existing trade advertising packages. Pricing is not publicly listed and requires direct engagement with the Autotrader partner team.
+url: https://www.autotrader.co.uk/partners/retailer/platform/autotrader-connect
+plans:
+  - name: Partner Integration
+    description: API access for technology partners and dealers integrating with Autotrader Connect. Includes access to vehicle data, stock management, valuations, and retail metrics APIs. Pricing is customized based on usage and integration type.
+    type: commercial
+    contact: partner.support@autotrader.co.uk
+    phone: "0330 303 9024"
+    features:
+      - Vehicles API access
+      - Stock API access
+      - Valuations API access
+      - Retail Metrics API access
+      - Taxonomy API access
+      - Images API access
+      - Deals API access
+      - Search API access
+      - Sandbox and Production environments
+      - Partner account management
+notes:
+  - API pricing is not publicly disclosed and is available on request via partner sales team
+  - API access is in addition to standard Autotrader advertising packages
+  - Technology partners may manage integrations on behalf of multiple dealers

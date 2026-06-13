@@ -1,0 +1,23 @@
+name: Autotrader FinOps
+description: Financial operations considerations for teams integrating with Autotrader Connect APIs. API costs are negotiated through the partner program and are in addition to any Autotrader trade advertising spend. No public pricing tiers exist; all commercial terms are agreed directly with Autotrader.
+url: https://www.autotrader.co.uk/partners/retailer/platform/autotrader-connect
+considerations:
+  - name: Partner Agreement Costs
+    description: Autotrader Connect API access is priced via direct commercial agreement. Organizations should engage with the Autotrader partner team to understand costs before budgeting.
+    type: negotiated
+    contact: partner.support@autotrader.co.uk
+  - name: Advertising Package Dependency
+    description: API access is typically provided on top of existing Autotrader trade advertising packages. Factor in advertising costs when calculating total spend.
+    type: dependency
+  - name: Token Refresh Overhead
+    description: Access tokens expire after 15 minutes. Build token refresh logic into API clients to avoid unnecessary re-authentication overhead and potential service interruptions.
+    type: operational
+  - name: Sandbox Environment
+    description: A sandbox environment is available at api-sandbox.autotrader.co.uk for development and testing without incurring production API costs.
+    type: cost-saving
+  - name: Rate Limit Monitoring
+    description: Monitor for 429 responses and implement backoff strategies to avoid wasted API calls. Contact partner support to negotiate higher limits if required.
+    type: cost-control
+  - name: Credential Lifecycle Management
+    description: Credentials unused for 90 days are revoked. Maintain active credential management practices to avoid disruption and re-onboarding costs.
+    type: operational

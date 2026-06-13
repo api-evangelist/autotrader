@@ -1,0 +1,27 @@
+name: Autotrader Rate Limits
+description: Autotrader Connect APIs implement a fair usage rate limiting policy to protect partners from incidents and outages. Rate limits are applied per API service and enforced via HTTP 429 responses. Specific rate limit values are not publicly documented and are defined per partner agreement.
+url: https://developers.autotrader.co.uk/api
+contact: partner.support@autotrader.co.uk
+limits:
+  - name: Fair Usage Policy
+    description: Rate limits are applied to each API service to protect all partners from incidents and outages. Partners who exceed their rate limit will receive a 429 Too Many Requests response.
+    type: fair-use
+    response_code: 429
+    notes: Contact partner.support@autotrader.co.uk to discuss current limits
+  - name: Authentication Token Expiry
+    description: Access tokens obtained from the authentication endpoint expire after 15 minutes. Applications must re-authenticate to obtain a new token.
+    type: token-ttl
+    value: 15
+    unit: minutes
+  - name: Credential Inactivity
+    description: API credentials may be removed if unused for 90 days in either Sandbox or Production environments.
+    type: inactivity
+    value: 90
+    unit: days
+environments:
+  - name: Production
+    base_url: https://api.autotrader.co.uk
+    authentication_url: https://api.autotrader.co.uk/authenticate
+  - name: Sandbox
+    base_url: https://api-sandbox.autotrader.co.uk
+    authentication_url: https://api-sandbox.autotrader.co.uk/authenticate
