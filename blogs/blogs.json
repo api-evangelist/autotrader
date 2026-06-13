@@ -1,0 +1,15 @@
+{
+  "name": "Autotrader Engineering Blog",
+  "description": "The official engineering blog for Autotrader UK, covering automotive technology, platform development, data engineering, and culture.",
+  "url": "https://engineering.autotrader.co.uk",
+  "rssUrl": "https://medium.com/feed/autotrader-engineering",
+  "provider": "autotrader",
+  "tags": [
+    "Automotive",
+    "Engineering",
+    "Data",
+    "Platform",
+    "Technology"
+  ],
+  "posts": []
+}

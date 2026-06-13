@@ -1,0 +1,162 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Autotrader",
+  "description": "Autotrader is the UK's largest digital automotive marketplace, providing REST APIs through the Autotrader Connect platform for vehicle listings, dealer stock management, VIN and VRM lookups, vehicle valuations, retail metrics, taxonomy, images, deals, and consumer-facing search.",
+  "url": "https://www.autotrader.co.uk",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://uk.linkedin.com/company/auto-trader-uk",
+    "https://twitter.com/AutoTrader_UK"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://help.autotrader.co.uk/hc/en-gb"
+  },
+  "hasPart": [
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Vehicles API",
+      "description": "Provides VRM and VIN lookups, MOT history, vehicle features, valuations, and retail metrics for individual vehicles.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk/vehicles",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Taxonomy API",
+      "description": "Provides structured data for vehicle makes, models, generations, and derivatives.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk/taxonomy",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Stock API",
+      "description": "Enables retailers to manage their forecourt inventory programmatically.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Images API",
+      "description": "CDN-backed image storage and management API for vehicle adverts.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Search API",
+      "description": "Provides filtered and sorted access to consumer vehicle adverts on the Autotrader marketplace.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Valuations API",
+      "description": "Delivers current UK market vehicle valuation data based on real-time Autotrader marketplace signals.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Vehicle Metrics API",
+      "description": "Provides supply, demand, and pricing intelligence metrics to help retailers understand market positioning.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Deals API",
+      "description": "Manages the full deal lifecycle between buyers and dealers on the Autotrader platform.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Part Exchange API",
+      "description": "Manages part-exchange vehicle transactions allowing dealers to appraise and accept trade-in vehicles.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Co-Driver API",
+      "description": "AI-powered API that generates vehicle advert descriptions and optimizes image ordering for vehicle listings.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Finance API",
+      "description": "Beta API supporting finance application and quote management for vehicle purchases.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Future Valuations API",
+      "description": "Returns predicted vehicle valuations for a specified future date.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "name": "Autotrader Historic Valuations API",
+      "description": "Provides access to historical vehicle valuation data, enabling trend analysis and retrospective pricing research.",
+      "documentation": "https://developers.autotrader.co.uk/api",
+      "url": "https://api.autotrader.co.uk",
+      "provider": {
+        "@type": "Organization",
+        "name": "Autotrader"
+      }
+    }
+  ]
+}
