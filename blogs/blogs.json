@@ -11,5 +11,17 @@
     "Platform",
     "Technology"
   ],
-  "posts": []
+  "posts": [],
+  "repo": "autotrader",
+  "feeds": [
+    {
+      "source": "https://developers.autotrader.co.uk/api",
+      "feed_url": "https://developers.autotrader.co.uk/api",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
