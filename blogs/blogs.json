@@ -15,6 +15,13 @@
   "repo": "autotrader",
   "feeds": [
     {
+      "source": "https://medium.com/feed/autotrader-engineering",
+      "feed_url": "https://medium.com/feed/autotrader-engineering",
+      "title": "",
+      "saved": 1,
+      "method": "feed"
+    },
+    {
       "source": "https://developers.autotrader.co.uk/api",
       "feed_url": "https://developers.autotrader.co.uk/api",
       "title": "",
@@ -22,6 +29,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 2,
+  "fetched": "2026-06-27T12:03:07Z"
 }
