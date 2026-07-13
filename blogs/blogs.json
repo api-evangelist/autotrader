@@ -18,7 +18,7 @@
       "source": "https://medium.com/feed/autotrader-engineering",
       "feed_url": "https://medium.com/feed/autotrader-engineering",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -29,6 +29,6 @@
       "method": "none"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-06-27T12:03:07Z"
+  "post_count": 10,
+  "fetched": "2026-07-11T11:50:51Z"
 }
