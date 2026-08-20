@@ -76,6 +76,10 @@ apis:
     humanURL: https://developers.autotrader.co.uk/api
     baseURL: https://api.autotrader.co.uk
     tags:
+      - Image
+      - CDN
+      - Media
+    tags_raw:
       - Images
       - CDN
       - Media
@@ -150,6 +154,10 @@ apis:
     baseURL: https://api.autotrader.co.uk
     tags:
       - Deals
+      - Transaction
+      - E-Commerce
+    tags_raw:
+      - Deals
       - Transactions
       - eCommerce
     properties:
@@ -173,6 +181,11 @@ apis:
     humanURL: https://developers.autotrader.co.uk/api
     baseURL: https://api.autotrader.co.uk
     tags:
+      - Artificial Intelligence
+      - Content Generation
+      - Image
+      - Descriptions
+    tags_raw:
       - AI
       - Content Generation
       - Images
