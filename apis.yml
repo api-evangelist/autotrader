@@ -1,6 +1,17 @@
 aid: autotrader
 name: Autotrader
 description: Autotrader is the UK's largest digital automotive marketplace, providing REST APIs through the Autotrader Connect platform for vehicle listings, dealer stock management, VIN and VRM lookups, vehicle valuations, retail metrics, taxonomy, images, deals, and consumer-facing search. The platform enables technology partners and retailers to integrate automotive data and marketplace functionality into their systems in real time.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
