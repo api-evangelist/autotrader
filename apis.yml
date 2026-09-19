@@ -33,6 +33,18 @@ tags:
   - Automotive
   - Vehicles
   - Marketplace
+  - Dealers
+  - Listings
+  - Valuation
+  - VIN
+  - VRM
+  - Inventory
+  - Car Buying
+  - Car Selling
+tags_raw:
+  - Automotive
+  - Vehicles
+  - Marketplace
   - Dealer
   - Listings
   - Valuations
@@ -74,6 +86,11 @@ apis:
     humanURL: https://developers.autotrader.co.uk/api
     baseURL: https://api.autotrader.co.uk
     tags:
+      - Stocks
+      - Inventory
+      - Listings
+      - Dealers
+    tags_raw:
       - Stock
       - Inventory
       - Listings
@@ -115,6 +132,10 @@ apis:
     humanURL: https://developers.autotrader.co.uk/api
     baseURL: https://api.autotrader.co.uk
     tags:
+      - Valuation
+      - Pricing
+      - Market Data
+    tags_raw:
       - Valuations
       - Pricing
       - Market Data
@@ -140,6 +161,10 @@ apis:
     humanURL: https://developers.autotrader.co.uk/api
     baseURL: https://api.autotrader.co.uk
     tags:
+      - Valuation
+      - Forecasting
+      - Depreciation
+    tags_raw:
       - Valuations
       - Forecasting
       - Depreciation
@@ -152,6 +177,10 @@ apis:
     humanURL: https://developers.autotrader.co.uk/api
     baseURL: https://api.autotrader.co.uk
     tags:
+      - Valuation
+      - Historical
+      - Pricing
+    tags_raw:
       - Valuations
       - Historical
       - Pricing
