@@ -29,6 +29,9 @@ url: https://raw.githubusercontent.com/api-evangelist/autotrader/refs/heads/main
 created: 2026-06-13
 modified: 2026-06-13
 specificationVersion: '0.23'
+x-docs-platform: slate
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-19
 tags:
   - Automotive
   - Vehicles
