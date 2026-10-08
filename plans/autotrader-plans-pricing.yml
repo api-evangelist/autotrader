@@ -26,3 +26,15 @@ notes:
   - API pricing is not publicly disclosed and is available on request via partner sales team
   - API access is in addition to standard Autotrader advertising packages
   - Technology partners may manage integrations on behalf of multiple dealers
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Partner Integration
+    access: paid
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
